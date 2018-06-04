@@ -25,11 +25,11 @@ import SearchBox from '#/shared-components/SearchBox'
 
 It goes up the up the path, ie if the file is located src/components/SearchComponent/index.js
 it would start by looking for
-* src/components/SearchComponent/shared-components/SearchBox -> ./
+`src/components/SearchComponent/shared-components/SearchBox -> ./`
 then:
-* src/components/shared-components/SearchBox -> ../
+`src/components/shared-components/SearchBox -> ../`
 then:
-* src/shared-components/SearchBox -> ../../
+`src/shared-components/SearchBox -> ../../`
 which is where the file exists. and therefore the path will be ../../ when compiled.
 
 

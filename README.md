@@ -23,7 +23,15 @@ import SearchBox from '#/shared-components/SearchBox'
 
 ## How does it work:
 
-<TODO>
+It goes up the up the path, ie if the file is located src/components/SearchComponent/index.js
+it would start by looking for
+* src/components/SearchComponent/shared-components/SearchBox -> ./
+then:
+* src/components/shared-components/SearchBox -> ../
+then:
+* src/shared-components/SearchBox -> ../../
+which is where the file exists. and therefore the path will be ../../ when compiled.
+
 
 ## Other Options:
 

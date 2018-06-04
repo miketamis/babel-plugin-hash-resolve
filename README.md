@@ -33,6 +33,23 @@ then:
 which is where the file exists. and therefore the path will be ../../ when compiled.
 
 
+## How to install:
+`npm i --save babel-plugin-hash-resolve` or `yarn add babel-plugin-hash-resolve`
+```json
+// .babelrc
+"plugins": [
+    "babel-plugin-hash-resolve"
+]
+
+```
+
+if your using eslint you may need to turn these off:
+
+```
+ 'import/no-unresolved': 'off',
+ 'import/extensions': 'off'
+```
+
 ## Other Options:
 
 * https://github.com/patrick-steele-idem/app-module-path-node

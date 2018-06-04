@@ -1,0 +1,9 @@
+{
+  "name": "babel-plugin-hash-resolve",
+  "version": "1.0.0",
+  "description": "Resolves #path to relative paths",
+  "main": "index.js",
+  "repository": "https://github.com/miketamis/babel-plugin-hash-resolve.git",
+  "author": "Mike Tamis <tamis.mike@gmail.com>",
+  "license": "MIT"
+}

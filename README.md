@@ -21,14 +21,16 @@ import { colors, fillFields } from '#/shared-components/helpers'
 import SearchBox from '#/shared-components/SearchBox'
 ```
 
-How does it work:
+## How does it work:
 
 <TODO>
 
-Other Options:
+## Other Options:
 
 * https://github.com/patrick-steele-idem/app-module-path-node
 
 * https://lostechies.com/derickbailey/2014/02/20/how-i-work-around-the-require-problem-in-nodejs/
 
 If you got a differnt solutions to this problem pull request and add it to this list.
+
+## Why I like this method:

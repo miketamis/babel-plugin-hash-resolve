@@ -21,7 +21,7 @@ import { colors, fillFields } from '#/shared-components/helpers'
 import SearchBox from '#/shared-components/SearchBox'
 ```
 
-## How does it work:
+## 1. - How does it work:
 
 It goes up the up the path, ie if the file is located src/components/SearchComponent/index.js
 it would start by looking for
